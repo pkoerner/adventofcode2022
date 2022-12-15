@@ -17,8 +17,6 @@
 ;; manually found a sensor at 2000000 in the input, removing that
 (count (disj (set (mapcat (partial blocks-at 2000000) input)) 1690952))
 
-(count (disj (set (mapcat (partial blocks-at 2000000) (take 1 input))) 1690952))
-
 
 ;; Part 2
 
